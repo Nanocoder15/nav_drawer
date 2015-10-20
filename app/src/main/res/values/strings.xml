@@ -14,8 +14,6 @@
     <string name="action_settings">Settings</string>
     <string name="change_feed">Change Feed</string>
 
-    <string name="disp">Display</string>
-    <string name="dispHint">DispHint</string>
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
@@ -32,7 +30,7 @@
     <string name="add">+</string>
     <string name="sub">-</string>
     <string name="equal">=</string>
-    <string name="cancel">Cancel</string>
+    <string name="Reset">C</string>
 
 
 </resources>

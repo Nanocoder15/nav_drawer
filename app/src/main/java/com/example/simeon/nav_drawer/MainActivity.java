@@ -145,13 +145,16 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if(id==R.id.calculator){
-            build1=new AlertDialog.Builder(MainActivity.this);
+           /* build1=new AlertDialog.Builder(MainActivity.this);
             build1.setTitle("Calculater");
             LayoutInflater lc= LayoutInflater.from(MainActivity.this);
             View calcview=lc.inflate(R.layout.calc,null);
             build1.setView(calcview);
             alert1=build1.create();
-            alert1.show();
+            alert1.show();*/
+            startActivity(new Intent(this, Calc.class));
+
+
         }
         if (id == R.id.action_settings) {
             Toast.makeText(this, " Configured " + item.getTitle(), Toast.LENGTH_SHORT).show();
