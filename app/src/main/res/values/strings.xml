@@ -24,7 +24,7 @@
     <string name="eight">8</string>
     <string name="nine">9</string>
     <string name="zero">0</string>
-
+    <string name="decimal">.</string>
     <string name="div">/</string>
     <string name="mul">*</string>
     <string name="add">+</string>

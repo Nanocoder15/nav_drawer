@@ -146,9 +146,10 @@
             android:background="@drawable/round_button"
             android:layout_width="55dp"
             android:layout_height="55dp"
-            android:id = "@+id/Reset"
-            android:text="@string/Reset"
+            android:id = "@+id/decimal"
+            android:text="@string/decimal"
             android:textSize="30dp"/>
+
         <Button
             android:textColor="@color/num"
             android:background="@drawable/round_button"
@@ -173,5 +174,23 @@
             android:id = "@+id/add"
             android:text="@string/add"
             android:textSize="30dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+        <Button
+            android:textColor="@color/num"
+            android:background="@drawable/round_button"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:id = "@+id/Reset"
+            android:text="@string/Reset"
+            android:textSize="30dp"/>
+
     </LinearLayout>
 </LinearLayout>
